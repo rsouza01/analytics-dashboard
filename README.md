@@ -1,6 +1,6 @@
 <h1 align="center">
-	<br><img src="logo.png" alt="awesome"><br>
+	<br><img src="logo.jpg" alt="logo"><br>
 </h1>
 
-# twitnode - Twitter Big Data Analytics with Node.js
+# Big Data Analytics with Node.js
 
