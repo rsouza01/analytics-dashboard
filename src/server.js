@@ -1,14 +1,9 @@
 // server.js
 
-const util = require('util')
-
 var http = require('http');
-var express = require('express');
 var app = require('./config/express')();
 
 var config = require('./config/config')();
-
-require('./config/database')(config.db);
 
 http.createServer(app).listen(config.port, config.address,
 

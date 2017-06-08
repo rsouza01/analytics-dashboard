@@ -3,7 +3,7 @@
 // contatooh/config/env/production.js
 module.exports = {
 	env: 'production',
-	db: process.env.OPENSHIFT_MONGODB_DB_URL + 'contatooh',
+	db: process.env.OPENSHIFT_MONGODB_DB_URL + 'twitnode',
 	clientID: process.env.CLIENT_ID,
 	clientSecret: process.env.CLIENT_SECRET,
 	port: process.env.OPENSHIFT_NODEJS_PORT,

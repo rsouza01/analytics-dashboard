@@ -4,7 +4,7 @@ module.exports = {
 	env: 'test',
 	address: 'localhost',
 	port: 3000,
-	db: 'mongodb://localhost/contatooh_test',
+	db: 'mongodb://localhost/twitnode_test',
 	sauceTestName: 'Contatooh E2E Testing',
 	sauceUser : process.env.SAUCE_USERNAME,
 	sauceKey : process.env.SAUCE_ACCESS_KEY,

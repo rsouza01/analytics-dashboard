@@ -3,8 +3,8 @@
 module.exports = {
 	env: 'development',
 	address: 'localhost',
-	port: 3000,
-	db: 'mongodb://localhost/contatooh',
+	port: 3001,
+	db: 'mongodb://localhost/twitnode',
 	clientID: process.env.CLIENT_ID,
 	clientSecret: process.env.CLIENT_SECRET,
 	seleniumUser: process.env.SELENIUM_USER,
