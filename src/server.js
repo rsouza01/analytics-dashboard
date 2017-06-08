@@ -9,7 +9,7 @@ http.createServer(app).listen(config.port, config.address,
 
 	function(){
 
-		console.log('\n\n********************** twitnode Application **********************\n\n');
+		console.log('\n\n********************** Analytics Dashboard Application **********************\n\n');
 		console.log('********************************************************************\n\n');
 
 		console.log('Express Https Server ' + config.address + ' (' + config.env + ') listening on port ' + config.port);

@@ -10,6 +10,7 @@
   "author": "Rodrigo Souza <rsouza01@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^0.8.8",
     "express": "^4.8.8",
     "express-load": "^1.1.16"
   }
