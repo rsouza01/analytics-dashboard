@@ -10,6 +10,8 @@
   "author": "Rodrigo Souza <rsouza01@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bunyan": "^1.8.10",
+    "debug": "^2.6.8",
     "ejs": "^0.8.8",
     "express": "^4.8.8",
     "express-load": "^1.1.16"
