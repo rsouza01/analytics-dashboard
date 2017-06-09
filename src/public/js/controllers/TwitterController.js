@@ -6,5 +6,9 @@ angular.module('analytics-dashboard').controller('TwitterController',
 		$scope.pageName = 'Twitter';
 		$scope.subHeading = 'Dashboard';
 
+		$scope.searchHashtag = function() {
+			alert($scope.hashtag);
+
+		};
 
 });

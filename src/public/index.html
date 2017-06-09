@@ -32,6 +32,12 @@
     <!-- Custom Fonts -->
     <link href="vendor/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Morris Charts JavaScript -->
+    <script src="vendor/morris/raphael.min.js"></script>
+    <script src="vendor/morris/morris.min.js"></script>
+    <script src="vendor/morris/morris-data.js"></script>
+
+
     <script src="js/main.js"></script>
     <script src="js/controllers/DashboardController.js"></script>
     <script src="js/controllers/TwitterController.js"></script>
@@ -178,10 +184,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#twitter"><i class="fa fa-fw fa-twitter"></i> Twitter <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="twitter" class="collapse">
                             <li>
-                                <a href="#">Charts</a>
+                                <a ng-href="/#/twitter">Charts</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a ng-href="/#/twitter">Services</a>
                             </li>
                         </ul>
                     </li>
@@ -190,10 +196,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#facebook"><i class="fa fa-fw fa-facebook"></i> Facebook <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="facebook" class="collapse">
                             <li>
-                                <a href="#">Charts</a>
+                                <a ng-href="/#/facebook">Charts</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a ng-href="/#/facebook">Services</a>
                             </li>
                         </ul>
                     </li>
