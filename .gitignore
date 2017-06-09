@@ -7,6 +7,9 @@ public/vendor/
 script/
 
 
+# VSCode
+.vscode/
+
 # Logs
 logs/
 *.log

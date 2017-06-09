@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="analytics-dashboard">
 
 <head>
 
@@ -11,14 +11,33 @@
 
     <title>Analytics Dashboard</title>
 
+	
+    <!-- Angular -->
+	<script src="vendor/angular/angular.js"></script>
+	<script src="vendor/angular-route/angular-route.js"></script>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/components-font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script src="js/main.js"></script>
+    <script src="js/controllers/DashboardController.js"></script>
+    <script src="js/controllers/TwitterController.js"></script>
+    <script src="js/controllers/FacebookController.js"></script>
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -187,46 +206,11 @@
             <!-- /.navbar-collapse -->
         </nav>
 
-        <div id="page-wrapper">
-
-            <div class="container-fluid">
-
-                <!-- Page Heading -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            <%=pageName %>
-                            <small><%=subHeading %></small>
-                        </h1>
-                        <ol class="breadcrumb">
-                            <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
-                            </li>
-                            <li class="active">
-                                <i class="fa fa-file"></i> Blank Page
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container-fluid -->
-
-        </div>
-        <!-- /#page-wrapper -->
+		<div ng-view></div>
 
     </div>
     <!-- /#wrapper -->
 
-    <!-- Angular -->
-	<script src="vendor/angular/angular.js"></script>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="vendor/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
