@@ -1,7 +1,7 @@
 {
-  "name": "twitnode",
+  "name": "analytics-dashboard",
   "version": "1.0.0",
-  "description": "Twitter Big Data Analytics with Node.js",
+  "description": "Big Data Analytics with Node.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
