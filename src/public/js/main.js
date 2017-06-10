@@ -1,4 +1,4 @@
-angular.module('analytics-dashboard', ['ngRoute'])
+angular.module('analytics-dashboard', ['ngRoute', '720kb.datepicker', 'ngResource'])
 .config(function($routeProvider) {
 
 	$routeProvider.when('/dashboard', {

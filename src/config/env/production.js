@@ -8,5 +8,10 @@ module.exports = {
 	clientSecret: process.env.CLIENT_SECRET,
 	port: process.env.OPENSHIFT_NODEJS_PORT,
 	address: process.env.OPENSHIFT_NODEJS_IP,
-	domain: process.env.OPENSHIFT_APP_DNS
+	domain: process.env.OPENSHIFT_APP_DNS,
+	consumer_key : process.env.CONSUMER_KEY,
+	consumer_secret : process.env.CONSUMER_SECRET,
+	access_token : process.env.ACCESS_TOKEN,
+	access_token_secret : process.env.ACCESS_TOKEN_SECRET
+
 };

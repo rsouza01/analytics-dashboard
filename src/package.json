@@ -14,6 +14,8 @@
     "debug": "^2.6.8",
     "ejs": "^0.8.8",
     "express": "^4.8.8",
-    "express-load": "^1.1.16"
+    "express-load": "^1.1.16",
+    "mongoose": "^3.8.40",
+    "twit": "^2.2.5"
   }
 }
