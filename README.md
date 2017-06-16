@@ -1,7 +1,7 @@
 <h1 align="center">
 	<br><img src="logo.jpg" alt="logo"><br>
 
-	# Big Data Analytics with Node.js
+	Big Data Analytics with Node.js
 </h1>
 
 

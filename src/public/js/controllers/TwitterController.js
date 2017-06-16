@@ -22,8 +22,14 @@ angular.module('analytics-dashboard').controller('TwitterController',
 		}
 
 		$scope.searchHashtag = function() {
+			
+			var twitterRestEndpoint = $resource('/twitter/:hashtag/:record_count/:date_from', {
+				hashtag: $scope.search.hashtag, 
+				record_count: $scope.search.record_count,
+				date_from:  $scope.search.date_from
+			});
 
-			Twitter.query(
+			twitterRestEndpoint.query(
 				function(tweets) {
 					$scope.tweets = tweets;
 					$scope.has_results = $scope.tweets.length > 0;
